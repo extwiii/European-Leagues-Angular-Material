@@ -6,9 +6,18 @@ html,body{
   padding: 0px;
 }
 
+.menu {
+  background-color: transparent;
+  border: none;
+  height: 38px;
+  margin: 16px;
+  width: 36px;
+}
+
 md-toolbar h3 {
   margin: auto;
   font-weight: 500;
+  color: white;
 }
 
 md-list-item > button {
@@ -16,12 +25,22 @@ md-list-item > button {
   text-align:  left !important;
 }
 
+md-list .md-button.selected {
+  color: #03a9f4;
+}
+
+md-sidenav  md-list {
+  padding: 0px 0px 8px 0px;
+}
+
 #content {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 5px;
 }
-
+#content img.avatar {
+  margin-top: 25px;
+}
 .avatar {
   position:  relative;
   width: 128px;

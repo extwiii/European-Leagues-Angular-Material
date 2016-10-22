@@ -1,2 +1,10 @@
+(function(){
+  angular.module('MyApp',['ngMaterial', 'users'])
+      .config(function($mdThemingProvider, $mdIconProvider){
+          $mdIconProvider.icon("menu", "./svg/menu.svg", 24);
 
-angular.module('MyApp',['ngMaterial', 'users']);
+          $mdThemingProvider.theme('default')
+              .primaryPalette('cyan')
+              .accentPalette('indigo');
+      });
+})();
