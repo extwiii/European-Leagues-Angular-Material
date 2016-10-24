@@ -73,7 +73,7 @@
 
         }, {
             "id": 402,
-            "caption": "Primeira Liga",
+            "caption": "P. Liga",
 
         }, {
             "id": 405,
