@@ -1,56 +1,58 @@
-html,body{
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .menu {
-  background-color: transparent;
-  border: none;
-  height: 38px;
-  margin: 16px;
-  width: 36px;
+    background-color: transparent;
+    border: none;
+    height: 38px;
+    margin: 16px;
+    width: 36px;
 }
 
 md-toolbar h3 {
-  margin: auto;
-  font-weight: 500;
-  color: white;
+    margin: auto;
+    font-weight: 500;
+    color: white;
 }
 
-md-list-item > button {
-  width:100%;
-  text-align:  left !important;
+md-list-item>button {
+    width: 100%;
+    text-align: left !important;
 }
 
 md-list .md-button.selected {
-  color: #03a9f4;
+    color: #03a9f4;
 }
 
-md-sidenav  md-list {
-  padding: 0px 0px 8px 0px;
+md-sidenav md-list {
+    padding: 0px 0px 8px 0px;
 }
 
 #content {
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
 }
+
 #content img.avatar {
-  margin-top: 25px;
+    margin-top: 25px;
 }
+
 .avatar {
-  position:  relative;
-  width: 128px;
-  height: 128;
-  border: 1px solid #DDD;
-  border-radius: 50%;
-  display: inline-block;
-  overflow: hidden;
-  margin: 0px;
-  vertical-align: middle;
-  zoom: 0.70;
-  transform: translateZ(0);
+    position: relative;
+    width: 128px;
+    height: 128px;
+    border: 1px solid #DDD;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0px;
+    vertical-align: middle;
+    zoom: 0.70;
+    transform: translateZ(0);
 }

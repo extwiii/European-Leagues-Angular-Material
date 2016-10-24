@@ -1,10 +1,10 @@
-(function(){
-  angular.module('MyApp',['ngMaterial', 'users'])
-      .config(function($mdThemingProvider, $mdIconProvider){
-          $mdIconProvider.icon("menu", "./svg/menu.svg", 24);
+(function() {
+    angular.module('MyApp', ['ngMaterial', 'league'])
+        .config(function($mdThemingProvider, $mdIconProvider) {
+            $mdIconProvider.icon("menu", "./svg/menu.svg", 24);
 
-          $mdThemingProvider.theme('default')
-              .primaryPalette('cyan')
-              .accentPalette('indigo');
-      });
+            $mdThemingProvider.theme('default')
+                .primaryPalette('indigo')
+                .accentPalette('pink');
+        });
 })();
