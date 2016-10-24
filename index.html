@@ -38,13 +38,17 @@
                     <md-nav-item md-nav-click="goto('l.caption')" ng-click="ul.selectLeague(l)" name={{l.caption}}>{{l.caption}}</md-nav-item>
                 </md-nav-bar>
             </md-content>
-            <div ng-if="!ul.selected.crestUrl">
+
+            <md-button id="init" ng-if="!ul.selected.crestUrl">
                 <h1>Welcome to European Leagues App</h1>
-                <h2>First , Please pick any league you want to get teams </h2>
-                <h2>Second , Please pick any team you want to get players infos</h2>
-                <h4>This website is giving info for season of 2015 due to API restrictions, I hope it will be updated very soon by its provider</h4>
-                <h5>Also couple of team of picures are missing due to API broken links, I will update them with not found image next update</h5>
-            </div>
+                <h2>1 -  Please select any league thet you want to get teams from sideNav</h2>
+                <h2>2 -  Please pick any team you want to get players infos</h2>
+                <h4>This website is giving info for season of 2015 due to API restrictions,</h4>
+                <h4>I hope it will be updated very soon by its provider</h4>
+                <h4>Also couple of team of picures are missing due to API broken links,</h4>
+                <h4>I will update them with not found image next update</h4>
+                <h6>Designed by Bilal Cagiran</h6>
+            </md-button>
 
             <md-button ng-if="ul.selected.crestUrl" aria-label="Show Team Info">
                 <div layout="row">
