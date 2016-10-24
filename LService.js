@@ -11,11 +11,11 @@
         var players = []
 
         var setUrl = function(id) {
-            return url = 'http://api.football-data.org/v1/competitions/' + id + '/teams';
+            return url = 'https://api.football-data.org/v1/competitions/' + id + '/teams';
         }
 
         var getTeams = function(url) {
-            url = url || 'http://api.football-data.org/v1/competitions/398/teams';
+            url = url || 'https://api.football-data.org/v1/competitions/398/teams';
             return $http({
                 method: 'GET',
                 url: url,
