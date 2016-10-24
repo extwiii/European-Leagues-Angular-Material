@@ -25,6 +25,7 @@
             }).then(function successCallback(response) {
                 teams = []
                 for (var i = 0; response.data.teams.length > i; i++) {
+                    response.data.teams[i].crestUrl = response.data.teams[i].crestUrl.replace(/^http:\/\//i, 'https://');
                     teams.push(response.data.teams[i])
                 }
                 return teams
@@ -35,9 +36,10 @@
         }
 
         var getTeamPlayers = function(team) {
+            url = team._links.players.href.replace(/^http:\/\//i, 'https://');
             return $http({
                 method: 'GET',
-                url: team._links.players.href,
+                url: url,
                 headers: {
                     'X-Auth-Token': token
                 }
