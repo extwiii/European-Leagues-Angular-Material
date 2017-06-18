@@ -2,10 +2,10 @@
 
 Demo : https://extwiii.github.io/European-Leagues-Angular-Material/
 
-##Welcome to European Leagues App
+## Welcome to European Leagues App
 
-####1 - Please select any league thet you want to get teams from sideNav
-####2 - Please pick any team you want to get players infos
+#### 1 - Please select any league thet you want to get teams from sideNav
+#### 2 - Please pick any team you want to get players infos
 
 * This website is giving info for season of 2015 due to API restrictions,I hope it will be updated very soon by its provider.
 
