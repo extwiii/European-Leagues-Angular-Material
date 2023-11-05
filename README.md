@@ -1,7 +1,5 @@
 # European-Leagues-Angular-Material
 
-Demo : https://extwiii.github.io/European-Leagues-Angular-Material/
-
 ## Welcome to European Leagues App
 
 #### 1 - Please select any league thet you want to get teams from sideNav
